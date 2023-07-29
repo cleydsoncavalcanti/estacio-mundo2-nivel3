@@ -1,4 +1,4 @@
-import Editora from '../modelo/Editora.js';
+import Editora from '../modelo/Editora';
 
 const editoras: Array<Editora> = [
     new Editora(1, 'Editora A'),
