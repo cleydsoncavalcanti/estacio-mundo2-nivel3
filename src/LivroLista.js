@@ -47,8 +47,8 @@ const LivroLista = () => {
   };
 
   return (
-    <main>
-      <h1>Catálogo de Livros</h1>
+    <main className='container'>
+      <h1 className='mt-3'>Catálogo de Livros</h1>
       <table className='table table-striped'>
         <thead className="thead-dark">
           <tr>
