@@ -8,7 +8,9 @@ const LinhaLivro = ({ livro, excluir }) => {
   return (
     <tr className=''>
       <td className='mx-2 my-3 px-3 d-flex flex-wrap'>
-        {livro.título}
+        <a href={'/livro/' + livro.codigo}>
+          {livro.título}
+        </a>
         <br />
         <button className='btn btn-danger' onClick={() => excluir(livro.codigo)}>Excluir</button>
       </td>
