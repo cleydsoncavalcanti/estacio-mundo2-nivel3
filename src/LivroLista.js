@@ -23,8 +23,8 @@ const LivroLista = () => {
   };
 
   return (
-    <main className='container'>
-      <h1 className='mt-3'>Catálogo de Livros</h1>
+    <main className='container mt-3'>
+      <h1 className='my-3'>Catálogo de Livros</h1>
       <table className='table table-striped'>
         <thead className="thead-dark">
           <tr>
